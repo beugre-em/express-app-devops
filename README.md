@@ -11,9 +11,9 @@ L'application récupère les informations de connexion à la base de données de
 L'application expose un endpoint **`/check-db`** qui vérifie si la connexion à la base de données est établie correctement.
 
 ### Variables d'environnement nécessaires :
-- `DB_HOST`: L'adresse de la base de données (nom d'hôte ou adresse IP).
-- `DB_USER`: Le nom d'utilisateur pour se connecter à la base de données.
-- `DB_PASSWORD`: beugre.
+- `DB_HOST`: db.
+- `DB_USER`: root.
+- `DB_PASSWORD`: ${DB_PASSWORD}.
 - `DB_NAME`: test.
 
 Le port de connexion de la base de données est fixé par défaut à **3306**, et l'application écoute sur le port **3000**.
