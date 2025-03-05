@@ -13,8 +13,8 @@ L'application expose un endpoint **`/check-db`** qui vérifie si la connexion à
 ### Variables d'environnement nécessaires :
 - `DB_HOST`: L'adresse de la base de données (nom d'hôte ou adresse IP).
 - `DB_USER`: Le nom d'utilisateur pour se connecter à la base de données.
-- `DB_PASSWORD`: Le mot de passe pour la base de données.
-- `DB_NAME`: Le nom de la base de données.
+- `DB_PASSWORD`: beugre.
+- `DB_NAME`: test.
 
 Le port de connexion de la base de données est fixé par défaut à **3306**, et l'application écoute sur le port **3000**.
 
@@ -35,6 +35,5 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 Clonez ce dépôt sur votre machine locale :
 
 ```bash
-git clone https://github.com/ton_nom_utilisateur/ton_depot.git
-cd ton_depot
-
+git clone https://github.com/beugre-em/express-app-devops
+cd express-app-devops
