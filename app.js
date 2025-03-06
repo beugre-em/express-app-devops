@@ -28,7 +28,7 @@ async function checkDbConnection() {
 
 // Route: /
 app.get('/', async (req, res) => {
-    res.send("Hello, I'm an Express app");
+    res.send("Hello, I'm an Express app!");
 });
 
 // Route: /check-db
